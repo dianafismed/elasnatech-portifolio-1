@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1400px;
+}
+
+#back{
+    background-color: #fafafa;
+    margin-top: 10px;
+}
+
+#barnav{
+    display: flex;
+    justify-content: center;
+}
+
+nav img{
+    width: 150px;
+    border-radius: 20%;
+}
+
+nav a:hover, footer a:hover{
+    color: rgb(184, 100, 172);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+#name, section h2, section h4{
+    font-family: "Courgette", sans-serif;
+    color: #7a229c;
+}
+
+#social{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.theme button{
+    font-size: 10px;
+}
+
+section{
+    background-color: #ded3e7;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+section ul{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+section a{
+    color: #060008;
+    text-decoration: none;
+}
+
+section a:hover{
+    text-decoration: none;
+    color: rgb(167, 15, 197);
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: auto;
+    width: 250px;
+    list-style-type: none;
+}
+
+.dark {
+    background-color: #010303;
+    color: #caa8b2;
+}
+
+.dark #back{
+    background-color: black;
+}
+
+.dark .container {
+    background-color: #1d1e22;
+    color: #caa8b2;
+    border-radius: 10px;
+}
+
+.dark .theme button {
+    background-color: #1c1c1c;
+    color: #c7c8c9;
+}
+
+.dark section ul a{
+    color: #caa8b2;
+}
+
+.dark section ul a:hover{
+    background-color: #010303;
+    color: white;
+}
+
+.dark #name, section h2, section h4{
+    color: #bb44bb;
+}
